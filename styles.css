@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #F9A825;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #F9A825;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Estilos para los botones */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #F9A825;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #FFC107;
+}
+
+/* Estilos para las secciones */
+.home-section,
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
